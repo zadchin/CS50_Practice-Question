@@ -11,3 +11,4 @@ def reverse_string(input_string):
 # Test the function with example inputs
 print(reverse_string("hello"))  # Expected output: "olleh"
 print(reverse_string("Python")) # Expected output: "nohtyP"
+
