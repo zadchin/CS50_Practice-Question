@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Practice</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card bg-light text-dark" style="border-radius: 1rem;">
+                <div class="card-body p-5 text-center">
+                    <h1>Welcome!</h1>
+                    <button class="btn btn-outline-primary btn-lg px-5"><a href="{{ url_for('logout') }}">Logout</a></button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    </section>
+</body>
+</html>
